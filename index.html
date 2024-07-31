@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nessienessbakes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/logo.PNG" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/logo.PNG" alt="Nessienessbakes Logo" class="logo">
+        </div>
+        <h1>nessienessbakes</h1>
+        <nav>
+            <ul>
+                <li><a href="#" id="home-link" onclick="showPage('home')">home</a></li>
+                <li><a href="#" id="menu-link" onclick="showPage('menu')">menu</a></li>
+                <li><a href="#" id="contact-link" onclick="showPage('contact')">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="text-image-container">
+            <div class="button-container">
+                <a href="https://www.instagram.com/nessienessbakes" class="order-now-button" target="_blank">order now!</a>
+            </div>
+                <div class="image-gallery">
+                    <div class="photo-circle">
+                        <img src="images/cake-1.jpeg" alt="Strawberry Matcha Cake">
+                    </div>
+                    <div class="photo-circle">
+                        <img src="images/cake-2.jpeg" alt="Vanilla Stonefruit Cake">
+                    </div>
+                    <div class="photo-circle">
+                        <img src="images/cupcakes-1.jpeg" alt="Vanilla & Vietnamese Coffee Mixed Box">
+                    </div>
+                    <div class="photo-circle">
+                        <img src="images/cupcakes-2.jpeg" alt="Earl Grey & Chocolate Rasperry Mixed Box">
+                    </div>
+                    <div class="photo-circle">
+                        <img src="images/cupcakes-3.jpeg" alt="Chocolate Cupcake with Vanilla Whipped Cream">
+                    </div>
+                    <div class="photo-circle">
+                        <img src="images/bagels-1.jpeg" alt="Blueberry Bagels">
+                    </div>
+                    <div class="photo-circle">
+                        <img src="images/bagels-2.jpeg" alt="Cheddar Jalapeño Bagels">
+                    </div>
+                    <div class="photo-circle">
+                        <img src="images/cake-3.jpeg" alt="Mocha Birthday Cake">
+                    </div>
+                </div>
+        </section>
+        <section id = "menu" style ="display: none;">
+            <h2>Something delicious coming soon...</h2>
+            <h3>Minimum order of 1 dozen per flavour. Orders must be made in multiples of 6.
+
+                Customizations and special requests can be made and are subject to an additional fee depending on the request as well as seasonal availability of ingredients. 
+                
+                Orders must be made at least 3 days in advance. Orders placed less than a week in advance are subject to an additional 20% rush fee.</h3>
+        </section>
+
+        <section id="contact" style="display: none;">
+            <div class="social-media">
+                <h3>Follow me on Instagram!</h3>
+                <a href="https://www.instagram.com/nessienessbakes" target="_blank">
+                    <img src="images/instagram.png" alt="Instagram" class="social-icon">
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Made with ❤️ by Nessie</p>
+    </footer>
+</body>
+</html>
